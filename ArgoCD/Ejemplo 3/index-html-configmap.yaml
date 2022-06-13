@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: index-html-configmap
+  namespace: nginx-automatico
+data:
+  index.html: |
+    <html>
+    <h1>Buenos dias,</h1>
+    </br>
+    <h1>Este nginx ha sido desplegado por ArgoCD en el PASIR de Alvaro de los Reyes Garcia</h1>
+    </html
